@@ -1,0 +1,82 @@
+/* inicio (se coloca siempre) */
+*{
+    box-sizing: border-box;
+    transform: all 0.3s ease-in-out;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Objetos */
+
+
+main#inicio {
+    background-color: transparent;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+
+/* Clases */
+
+.caja {
+    border-radius: 38px;
+    height: 360px;
+    padding: 46px;
+    width: 320px;
+}
+
+.campo {
+    background-color: transparent;
+    border: none;
+    border-radius: 32px;
+    margin: 16px 0;
+    font-size: 14px;
+    padding: 16px;
+    width: 83%;
+}
+
+
+.claro {/* fondo */
+    background-color: #EEE;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+    .clara {/* este es el cuadro */
+        background-color: #EEE;
+        box-shadow: 9px 9px 16px #BBB,
+                    -9px -9px 16px #FFF;
+    }
+
+        .clara .campo {
+            box-shadow: inset 4px 4px 9px #BBB,
+                        inset -4px -4px 9px #FFF; /* estas son las sombras de adentro:D */
+            color: #777;
+        }
+
+
+ 
+ .boton {
+     border-radius: 50px;
+     padding: 10px 20px;
+     box-shadow: 4px 4px 9px #BBB, -4px -4px 9px #FFF;
+     color: #777;
+     background-color: #fff;
+     border: none;
+    cursor: pointer;
+ }
